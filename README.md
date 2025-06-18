@@ -1,17 +1,31 @@
-# Harry-potter-Invisible-Cloak
+# 🧙‍♂️ Harry Potter Invisibility Cloak using OpenCV
 
-Hello World, we have covered 4 blogs together. Thankyou so much for the support. Today let’s learn something interesting,
-lets do some magic using computer vision. I hope you all know about Harry Potter’s ‘invisible cloak’, 
-the one he uses to become invisible. We will see how we can do the same magic trick with the help of computer vision. 
-I will code with python and use the opencv library.
+Disappear like Harry Potter using a real-time webcam invisibility cloak built with **Python**, **OpenCV**, and **KMeans Clustering**!
 
-# Requirements
+This project captures the background and replaces the pixels of a cloak (detected by color) with that background, creating an invisibility effect.
 
-* python 3.5 and above
-* opencv
+---
 
+## 📽️ Demo
 
-Blogging website: www.machinelearningman.com
+> Add your demo GIF or video link here if available.
 
+---
 
-YouTube Channel: https://www.youtube.com/channel/UC4Ljpn7LRUwCrTz8inAksNA?view_as=subscriber
+## 🚀 Features
+
+- 📸 Real-time webcam feed
+- 🎯 Automatic cloak color detection using **KMeans**
+- 🎨 HSV color range generated dynamically from cloak
+- 🪄 Smooth invisibility effect using background substitution
+- 🧼 Morphological transformations for mask refinement
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Shashanksuryawanshi/Harry-potter-Invisible-CLOAK-1.git
+cd Harry-potter-Invisible-CLOAK-1
